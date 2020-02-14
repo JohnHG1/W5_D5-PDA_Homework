@@ -4,7 +4,7 @@ class Card
 
   def initialize(suit, value)
     @suit = suit
-    @value = value; * no semi-colon needed
+    @value = value; 
   end
 
 end
