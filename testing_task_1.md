@@ -7,31 +7,30 @@
 class CardGame
 
 
-  # def checkforAce(card)
-  syntax is wrong
-    if card.value = 1
-      return true
-    else
-      return false
+  # def checkforAce(card) #checkforAce should be check_for_ace - underscore required
+      # if card.value = 1 #==required
+        return true
+      else
+        return false
+      end
     end
-  end
 
-  # dif highest_card(card1 card2)
-   spelling error in def (define)
-  if card1.value > card2.value
-    return card
-  else
-    return card2
-  end
-end
-# end
- extra end added
+    # dif highest_card(card1 card2)  #dif should be def, card 1 and 2 should be separated by comma
+    if card1.value > card2.value
+      # return card #return card1
+    else
+      return card2
+    end
+  # end # indenting required for if statement and end
+  # end #extra end
 
-def self.cards_total(cards)
-  total
-  for card in cards
-    total += card.value
-    return "You have a total of" + total
+  def self.cards_total(cards) #indent required
+    # total  #  total = 0 should return value
+    for card in cards
+      total += card.value
+      return "You have a total of" + total
+    # end #end needs moved above for the return statement to run
   end
-end
+  # another end required
+
 ```
