@@ -28,7 +28,7 @@ class CardGame
     # total  #  total = 0 should return value
     for card in cards
       total += card.value
-      return "You have a total of" + total
+      return "You have a total of" + total #missing end (.to_s)
     # end #end needs moved above for the return statement to run
   end
   # another end required
